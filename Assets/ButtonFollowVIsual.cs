@@ -8,6 +8,8 @@ public class ButtonFollowVIsual : MonoBehaviour
     public Vector3 localAxis;
     public Transform visualTarget;
     public float resetSpeed = 5;
+    public bool freeze = false;
+    public float followAngleThreshold = 45;
 
     private Vector3 InitialLocalPos;
 
@@ -23,6 +25,7 @@ public class ButtonFollowVIsual : MonoBehaviour
         interactable = GetComponent<XRBaseInteractable>();
         interactable.hoverEntered.AddListener(Follow);
         interactable.hoverExited.AddListener(Reset);
+        interactable.selectEntered.AddListener(Freeze);
     }
 
     public void Follow(BaseInteractionEventArgs hover)
@@ -30,10 +33,18 @@ public class ButtonFollowVIsual : MonoBehaviour
         if (hover.interactorObject is XRPokeInteractor)
         {
             XRPokeInteractor interactor = (XRPokeInteractor)hover.interactorObject;
-            isFollowing = true;
+          
 
             pokeAttachTransform = interactor.attachTransform;
             offset = visualTarget.position - pokeAttachTransform.position;
+
+            float pokeAngle = Vector3.Angle(offset, visualTarget.TransformDirection(localAxis));
+
+            if(pokeAngle < followAngleThreshold)
+            {
+                isFollowing = true;
+                freeze = false;
+            }
         }
 
     }
@@ -43,10 +54,22 @@ public class ButtonFollowVIsual : MonoBehaviour
         if(hover.interactorObject is XRPokeInteractor)
         {
             isFollowing = false;
+            freeze = false;
         }
     }
+
+    public void Freeze(BaseInteractionEventArgs hover)
+    {
+        if (hover.interactorObject is XRPokeInteractor)
+        {
+            freeze = true;
+        }
+    }
+
     void Update()
     {
+        if (freeze)
+            return;
         if (isFollowing)
         {
             Vector3 localTargetPosition = visualTarget.InverseTransformPoint(pokeAttachTransform.position + offset);
