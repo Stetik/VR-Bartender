@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3564028473784912163}
   - component: {fileID: 1853201564319784040}
   - component: {fileID: 1466416207808698556}
-  - component: {fileID: 3500196673641422121}
+  - component: {fileID: -4088590757592116985}
   m_Layer: 7
   m_Name: Grab Item
   m_TagString: Untagged
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &3500196673641422121
+--- !u!114 &-4088590757592116985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,7 +298,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8939623639974469765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1094dba3c5feb7949aa6621409cc6d25, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c8515e45865f0c4cb3c9a2ccac67e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadzone: 0.3
