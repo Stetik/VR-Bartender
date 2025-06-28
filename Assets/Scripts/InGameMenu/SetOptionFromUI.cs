@@ -19,12 +19,10 @@ public class SetOptionFromUI : MonoBehaviour
         if (PlayerPrefs.HasKey("turn"))
             turnDropdown.SetValueWithoutNotify(PlayerPrefs.GetInt("turn"));
     }
-
     public void SetGlobalVolume(float value)
     {
         AudioListener.volume = value;
     }
-
     public void SetTurnPlayerPref(int value)
     {
         PlayerPrefs.SetInt("turn", value); 
