@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -289,6 +294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -504,6 +514,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -592,6 +607,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -679,6 +699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -868,6 +893,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -966,6 +996,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1060,6 +1095,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1153,6 +1193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1254,6 +1299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1341,6 +1391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1442,6 +1497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1541,6 +1601,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chair (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1716,6 +1781,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1810,6 +1880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1882,6 +1957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1976,6 +2056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2107,6 +2192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2200,6 +2290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2295,6 +2390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2388,6 +2488,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2590,6 +2695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2683,6 +2793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2784,6 +2899,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2877,6 +2997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2972,6 +3097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3065,6 +3195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3295,6 +3430,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3427,6 +3567,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3514,6 +3659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3603,6 +3753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3690,6 +3845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3784,6 +3944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4117,6 +4282,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4210,6 +4380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4305,6 +4480,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4345,7 +4525,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &391681589
 Transform:
@@ -4519,6 +4699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4606,6 +4791,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4701,6 +4891,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4795,6 +4990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4882,6 +5082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4976,6 +5181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5351,6 +5561,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5456,6 +5671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5568,6 +5788,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5667,6 +5892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6013,6 +6243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6106,6 +6341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6201,6 +6441,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6229,7 +6474,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &585076992
 Transform:
@@ -6403,6 +6648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6496,6 +6746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6591,6 +6846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6678,6 +6938,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6772,6 +7037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6914,6 +7184,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7001,6 +7276,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7102,6 +7382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7189,6 +7474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (08)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7284,6 +7574,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7377,6 +7672,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chair (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7477,6 +7777,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7703,6 +8008,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7790,6 +8100,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7879,6 +8194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7967,6 +8287,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8054,6 +8379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8152,6 +8482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8352,6 +8687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8430,6 +8770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8525,6 +8870,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8612,6 +8962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8740,6 +9095,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8840,6 +9200,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8934,6 +9299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9021,6 +9391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9116,6 +9491,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9194,6 +9574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Techo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cf9b702f7f0498439510eabbbe301cd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9300,6 +9685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9434,6 +9824,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9527,6 +9922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9652,6 +10052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9858,6 +10263,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9951,6 +10361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chair (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10052,6 +10467,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10146,6 +10566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10234,6 +10659,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10321,6 +10751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Floor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225342323349367793, guid: ccaa636e331ff024db0e7eeaccc4969a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10416,6 +10851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10510,6 +10950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10603,6 +11048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10704,6 +11154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10791,6 +11246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10889,6 +11349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10990,6 +11455,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11083,6 +11553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11226,6 +11701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11320,6 +11800,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11407,6 +11892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11499,6 +11989,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11586,6 +12081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11675,6 +12175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11762,6 +12267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11857,6 +12367,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11951,6 +12466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12038,6 +12558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chair (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12160,6 +12685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12253,6 +12783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12366,6 +12901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12459,6 +12999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12554,6 +13099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12648,6 +13198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12735,6 +13290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lampara (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12853,6 +13413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13097,6 +13662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13190,6 +13760,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13354,6 +13929,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarraDer
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 592fbad03d1d65547a6961fb058857fa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13461,6 +14041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13681,6 +14266,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13894,6 +14484,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14000,6 +14595,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14099,6 +14699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14257,6 +14862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14742,6 +15352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14835,6 +15450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14930,6 +15550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15023,6 +15648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15233,7 +15863,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1455174199
 Transform:
@@ -15461,6 +16091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15548,6 +16183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15643,6 +16283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15737,6 +16382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15828,6 +16478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15923,6 +16578,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16007,6 +16667,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16095,6 +16760,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16202,6 +16872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16296,6 +16971,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16389,6 +17069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16634,6 +17319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16822,6 +17512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16909,6 +17604,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17010,6 +17710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17097,6 +17802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17223,6 +17933,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17317,6 +18032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17405,6 +18125,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17492,6 +18217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17587,6 +18317,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17681,6 +18416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lampara (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9469f7f2625b0534aa35bb3d8f30ed71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17768,6 +18508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17985,6 +18730,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18072,6 +18822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18167,6 +18922,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18245,6 +19005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarraIzq
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0f23dac19f502fe42b8ced96ea3f9cc5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18376,6 +19141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18469,6 +19239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18599,6 +19374,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18692,6 +19472,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18787,6 +19572,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18881,6 +19671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18974,6 +19769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19102,6 +19902,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8225342323349367793, guid: ccaa636e331ff024db0e7eeaccc4969a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19196,6 +20001,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19283,6 +20093,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19378,6 +20193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19465,6 +20285,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19560,6 +20385,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19653,6 +20483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Techo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cf9b702f7f0498439510eabbbe301cd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19754,6 +20589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottle2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19841,6 +20681,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19966,6 +20811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20151,6 +21001,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20244,6 +21099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20345,6 +21205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20438,6 +21303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20539,6 +21409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20617,6 +21492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puerta (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62a6e566b1d5d05429b92fbf096ce4f4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20705,6 +21585,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20800,6 +21685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20894,6 +21784,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20928,7 +21823,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1940571387
 Transform:
@@ -21341,6 +22236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stool (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21594,6 +22494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21687,6 +22592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21782,6 +22692,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21875,6 +22790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21970,6 +22890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22057,6 +22982,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2790728b98c0cf341985b1204d731b4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22157,6 +23087,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84ae45f504541dc4daaa84e586174f59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22286,6 +23221,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3488b0c2294ef324fb3ca144c395fd37,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22379,6 +23319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stool (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9dd95df6f3cf6774eac86c04e891a05c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22485,6 +23430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: glass (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 13cf827958c9f5346a241a099135a377,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22610,6 +23560,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bottle1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9efa89f53f530544930aed979b4f4ca,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
