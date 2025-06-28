@@ -1,9 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class ButtonFollowVIsual : MonoBehaviour
+public class ButtonFollowVisual : MonoBehaviour
 {
     public Vector3 localAxis;
     public Transform visualTarget;
@@ -12,16 +11,15 @@ public class ButtonFollowVIsual : MonoBehaviour
     public float followAngleThreshold = 45;
 
     private Vector3 InitialLocalPos;
-
     private Vector3 offset;
     private Transform pokeAttachTransform;
 
     private XRBaseInteractable interactable;
-    private bool isFollowing = false;
-    void Start()
+    private Coroutine followRoutine;
+
+    void Awake()
     {
         InitialLocalPos = visualTarget.localPosition;
-
         interactable = GetComponent<XRBaseInteractable>();
         interactable.hoverEntered.AddListener(Follow);
         interactable.hoverExited.AddListener(Reset);
@@ -30,31 +28,32 @@ public class ButtonFollowVIsual : MonoBehaviour
 
     public void Follow(BaseInteractionEventArgs hover)
     {
-        if (hover.interactorObject is XRPokeInteractor)
+        if (hover.interactorObject is XRPokeInteractor interactor)
         {
-            XRPokeInteractor interactor = (XRPokeInteractor)hover.interactorObject;
-          
-
             pokeAttachTransform = interactor.attachTransform;
             offset = visualTarget.position - pokeAttachTransform.position;
 
             float pokeAngle = Vector3.Angle(offset, visualTarget.TransformDirection(localAxis));
-
-            if(pokeAngle < followAngleThreshold)
+            if (pokeAngle < followAngleThreshold && !freeze)
             {
-                isFollowing = true;
-                freeze = false;
+                if (followRoutine != null)
+                    StopCoroutine(followRoutine);
+
+                followRoutine = StartCoroutine(FollowRoutine());
             }
         }
-
     }
 
     public void Reset(BaseInteractionEventArgs hover)
     {
-        if(hover.interactorObject is XRPokeInteractor)
+        if (hover.interactorObject is XRPokeInteractor)
         {
-            isFollowing = false;
             freeze = false;
+            if (followRoutine != null)
+            {
+                StopCoroutine(followRoutine);
+                followRoutine = StartCoroutine(ResetRoutine());
+            }
         }
     }
 
@@ -63,23 +62,29 @@ public class ButtonFollowVIsual : MonoBehaviour
         if (hover.interactorObject is XRPokeInteractor)
         {
             freeze = true;
+            if (followRoutine != null)
+                StopCoroutine(followRoutine);
         }
     }
 
-    void Update()
+    private IEnumerator FollowRoutine()
     {
-        if (freeze)
-            return;
-        if (isFollowing)
+        while (!freeze)
         {
             Vector3 localTargetPosition = visualTarget.InverseTransformPoint(pokeAttachTransform.position + offset);
             Vector3 constraintLocalTargetPosition = Vector3.Project(localTargetPosition, localAxis);
-
             visualTarget.position = visualTarget.TransformPoint(constraintLocalTargetPosition);
+            yield return null; // esperar un frame
         }
-        else
+    }
+
+    private IEnumerator ResetRoutine()
+    {
+        while (Vector3.Distance(visualTarget.localPosition, InitialLocalPos) > 0.001f)
         {
             visualTarget.localPosition = Vector3.Lerp(visualTarget.localPosition, InitialLocalPos, Time.deltaTime * resetSpeed);
+            yield return null;
         }
+        visualTarget.localPosition = InitialLocalPos;
     }
 }
