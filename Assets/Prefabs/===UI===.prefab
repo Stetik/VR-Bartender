@@ -304,7 +304,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5359622842189309328}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SetTurnType, Assembly-CSharp
         m_MethodName: SetTypeFromIndex
         m_Mode: 0
@@ -485,9 +485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7c25af21ab5a8429eeeba3f5e0bc61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 0}
-  spawnDistance: 2
-  menu: {fileID: 4633516787013868398}
   showButton:
     m_UseReference: 1
     m_Action:
@@ -501,6 +498,13 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 1657135323894597956, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  head: {fileID: 0}
+  spawnDistance: 2
+  menu: {fileID: 4633516787013868398}
+  volumeSlider: {fileID: 0}
+  turnDropdown: {fileID: 0}
+  snapTurn: {fileID: 0}
+  continuousTurn: {fileID: 0}
 --- !u!1 &2780899304305480518
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,7 +998,6 @@ GameObject:
   - component: {fileID: 3216941737661890470}
   - component: {fileID: 319819908165261038}
   - component: {fileID: 1773552625338334157}
-  - component: {fileID: 5359622842189309328}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1090,20 +1093,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
---- !u!114 &5359622842189309328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4633516787013868398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5743c0bc5d68a849814601869077ba4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  snapTurn: {fileID: 0}
-  continuousTurn: {fileID: 0}
 --- !u!1 &5037891406769039602
 GameObject:
   m_ObjectHideFlags: 0

@@ -12261,6 +12261,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1633894948}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1225306782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5679057910210619146, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1689078729}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1233686008
 GameObject:
   m_ObjectHideFlags: 0
@@ -16981,6 +16993,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1773552625338334157, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2536374269934717370, guid: 96e1a4313550a8145b2e9a1daaffd77b,
         type: 3}
       propertyPath: m_Name
@@ -16996,6 +17013,26 @@ PrefabInstance:
       propertyPath: head
       value: 
       objectReference: {fileID: 699956821}
+    - target: {fileID: 2895656737776821060, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+        type: 3}
+      propertyPath: snapTurn
+      value: 
+      objectReference: {fileID: 517154631470196005}
+    - target: {fileID: 2895656737776821060, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+        type: 3}
+      propertyPath: turnDropdown
+      value: 
+      objectReference: {fileID: 1870627776}
+    - target: {fileID: 2895656737776821060, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+        type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 1225306782}
+    - target: {fileID: 2895656737776821060, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+        type: 3}
+      propertyPath: continuousTurn
+      value: 
+      objectReference: {fileID: 6210847838488062137}
     - target: {fileID: 3266430792565919821, guid: 96e1a4313550a8145b2e9a1daaffd77b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17056,6 +17093,11 @@ PrefabInstance:
       propertyPath: snapTurn
       value: 
       objectReference: {fileID: 517154631470196005}
+    - target: {fileID: 5359622842189309328, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5359622842189309328, guid: 96e1a4313550a8145b2e9a1daaffd77b,
         type: 3}
       propertyPath: continuousTurn
@@ -19304,6 +19346,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13cf827958c9f5346a241a099135a377, type: 3}
+--- !u!114 &1870627776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3447003650159681124, guid: 96e1a4313550a8145b2e9a1daaffd77b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1689078729}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1870923309
 PrefabInstance:
   m_ObjectHideFlags: 0
