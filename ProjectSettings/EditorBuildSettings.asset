@@ -15,6 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/VRBartender.unity
     guid: 802d33daa564ba143b7331c6d3656931
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f8e0f7884b614164487a1b0c19f779af,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c9dd9b1ff85cfaf4fa3c984312dac3ad,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7dcd402eb29e5e6429ced75a4758a2f7,
