@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Scene.unity
     guid: b97c4ee9a2e9f5c4cbf8100de80feee4
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 2d43052ec1a3b4d45a3d56ec05795d91
+  - enabled: 1
     path: Assets/Scenes/VRBartender.unity
     guid: 802d33daa564ba143b7331c6d3656931
   m_configObjects:
