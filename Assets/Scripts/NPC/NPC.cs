@@ -211,7 +211,7 @@ public class NPC : MonoBehaviour
             return;
 
         bottlesReceived++;
-        NPCEvents.OnNPCHitByBottle?.Invoke(this);
+        NPCEvents.OnNPCHitByBottle?.Invoke(this, bottle);
 
         if (IsSatisfied)
         {
@@ -224,7 +224,17 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Bottle"))
         {
             OnHitByBottle(other.gameObject);
+
+            // Destruir el NPC inmediatamente
+            DestroyNPC();
         }
+    }
+
+    private void DestroyNPC()
+    {
+        // Cambiar a estado de destrucción inmediata
+        ChangeState(NPCState.Despawning);
+        stateTimer = npcData.despawnTime; // Forzar despawn inmediato
     }
 
     // ==================================================
