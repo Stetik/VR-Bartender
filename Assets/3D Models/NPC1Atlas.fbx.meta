@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 48c0b670a20cb024d8b1e8e3dc682a67
+guid: 55678399919bd274fa55a0a57c1951b6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TextureAtlasNPC
+    second: {fileID: 2100000, guid: 01ace00123feea9439032d41b73a8fab, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
