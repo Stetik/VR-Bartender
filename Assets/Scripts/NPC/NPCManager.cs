@@ -18,6 +18,12 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private Transform barPosition;
     [SerializeField] private float barInteractionRange = 2f;
 
+    [Header("Timer to Win (in seconds)")]
+    [SerializeField] private float winTime = 180f; // 3 minutos
+
+    private float timer;
+    private bool gameEnded = false;
+
     // Systems
     private NPCPool npcPool;
     private NPCSpawnSystem spawnSystem;
@@ -26,10 +32,6 @@ public class NPCManager : MonoBehaviour
     // State
     private float timeSinceLastSpawn;
     private int activeNPCCount;
-
-    // ==================================================
-    // LIFECYCLE
-    // ==================================================
 
     private void Awake()
     {
@@ -40,6 +42,7 @@ public class NPCManager : MonoBehaviour
 
         timeSinceLastSpawn = 0f;
         activeNPCCount = 0;
+        timer = 0f;
     }
 
     private void InitializeBarData()
@@ -91,27 +94,25 @@ public class NPCManager : MonoBehaviour
         NPCEvents.OnNPCSatisfied -= OnNPCSatisfied;
     }
 
-    // ==================================================
-    // MAIN UPDATE
-    // ==================================================
-
     private void Update()
     {
+        if (gameEnded) return;
+
         float deltaTime = Time.deltaTime;
 
-        // Update spawn system
+        // Timer de victoria
+        timer += deltaTime;
+        if (timer >= winTime)
+        {
+            WinGame();
+            return;
+        }
+
+        // Actualizar spawn y NPCs
         spawnSystem.Update(deltaTime);
-
-        // Update all active NPCs
         npcPool.UpdateAllNPCs(deltaTime);
-
-        // Try to spawn new NPCs
         TrySpawnNPC();
     }
-
-    // ==================================================
-    // SPAWNING
-    // ==================================================
 
     private void TrySpawnNPC()
     {
@@ -137,23 +138,20 @@ public class NPCManager : MonoBehaviour
         }
     }
 
-    // ==================================================
-    // POOL MANAGEMENT
-    // ==================================================
-
     public void ReturnNPCToPool(NPC npc)
     {
         npcPool.ReturnNPC(npc);
     }
 
-    // ==================================================
-    // EVENT HANDLERS
-    // ==================================================
+    // ====================== EVENTOS ======================
 
     private void OnNPCReachedBar(NPC npc)
     {
+        if (gameEnded) return;
+
         Debug.Log($"NPC {npc.name} llegó a la barra. ¡Game Over!");
-        SceneManager.LoadScene("loseScene"); // ← Cambia a la escena de derrota
+        gameEnded = true;
+        SceneManager.LoadScene("loseScene");
     }
 
     private void OnNPCHitByBottle(NPC npc)
@@ -172,9 +170,14 @@ public class NPCManager : MonoBehaviour
         Debug.Log($"NPC {npc.name} está satisfecho.");
     }
 
-    // ==================================================
-    // PUBLIC API
-    // ==================================================
+    private void WinGame()
+    {
+        Debug.Log("¡Ganaste! Sobreviviste 3 minutos.");
+        gameEnded = true;
+        SceneManager.LoadScene("winScene");
+    }
+
+    // ====================== API PÚBLICA ======================
 
     public List<NPC> GetActiveNPCs()
     {
