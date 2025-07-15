@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class VRMenuManager : MonoBehaviour
@@ -7,12 +7,11 @@ public class VRMenuManager : MonoBehaviour
     [SerializeField] private CanvasGroup startPanel;
     [SerializeField] private CanvasGroup howToPlayPanel;
 
-    [Header("Scene to Load")]
+    [Header("Default Scene to Load (optional)")]
     [SerializeField] private string sceneToLoad = "SceneNameHere";
 
     private void Start()
     {
-        // Show start panel and hide how-to-play panel on start
         ShowPanel(startPanel);
         HidePanel(howToPlayPanel);
     }
@@ -43,11 +42,21 @@ public class VRMenuManager : MonoBehaviour
         panel.blocksRaycasts = false;
     }
 
-    public void LoadScene()
+    // ✅ Método por defecto que usa el string seteado en el inspector
+    public void LoadDefaultScene()
     {
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
             SceneManager.LoadScene(sceneToLoad);
+        }
+    }
+
+    // ✅ Método nuevo para botones con parámetro
+    public void LoadSceneByName(string sceneName)
+    {
+        if (!string.IsNullOrEmpty(sceneName))
+        {
+            SceneManager.LoadScene(sceneName);
         }
     }
 

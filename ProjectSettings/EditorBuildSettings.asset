@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRBartender.unity
     guid: 802d33daa564ba143b7331c6d3656931
+  - enabled: 1
+    path: Assets/Scenes/loseScene.unity
+    guid: 08c07f1d64010ef4e9c775ac11ee187d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f8e0f7884b614164487a1b0c19f779af,
       type: 2}

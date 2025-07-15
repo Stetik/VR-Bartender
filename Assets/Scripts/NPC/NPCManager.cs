@@ -1,4 +1,5 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 public class NPCManager : MonoBehaviour
@@ -151,23 +152,24 @@ public class NPCManager : MonoBehaviour
 
     private void OnNPCReachedBar(NPC npc)
     {
-        Debug.Log($"NPC {npc.name} reached the bar!");
+        Debug.Log($"NPC {npc.name} llegó a la barra. ¡Game Over!");
+        SceneManager.LoadScene("loseScene"); // ← Cambia a la escena de derrota
     }
 
     private void OnNPCHitByBottle(NPC npc)
     {
-        Debug.Log($"NPC {npc.name} was hit by a bottle!");
+        Debug.Log($"NPC {npc.name} fue golpeado por una botella.");
     }
 
     private void OnNPCDespawned(NPC npc)
     {
         activeNPCCount--;
-        Debug.Log($"NPC {npc.name} despawned. Active NPCs: {activeNPCCount}");
+        Debug.Log($"NPC {npc.name} se fue. NPCs activos: {activeNPCCount}");
     }
 
     private void OnNPCSatisfied(NPC npc)
     {
-        Debug.Log($"NPC {npc.name} is satisfied!");
+        Debug.Log($"NPC {npc.name} está satisfecho.");
     }
 
     // ==================================================

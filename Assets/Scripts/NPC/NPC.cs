@@ -1,4 +1,4 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using System.Collections;
 
 public class NPC : MonoBehaviour
@@ -85,7 +85,7 @@ public class NPC : MonoBehaviour
     }
 
     // ==================================================
-    // MAIN UPDATE (Llamado desde NPCManager)
+    // MAIN UPDATE
     // ==================================================
 
     public void UpdateNPC(float deltaTime)
@@ -143,14 +143,13 @@ public class NPC : MonoBehaviour
         }
         else if (stateTimer >= npcData.waitTimeAtBar)
         {
-            // NPC se va insatisfecho
             ChangeState(NPCState.Despawning);
         }
     }
 
     private void UpdateSatisfied(float deltaTime)
     {
-        if (stateTimer >= 0.5f) // PequeÒa pausa antes de irse
+        if (stateTimer >= 0.5f)
         {
             ChangeState(NPCState.Despawning);
         }
@@ -184,9 +183,6 @@ public class NPC : MonoBehaviour
                 if (npcAnimator != null)
                     npcAnimator.SetBool("IsWalking", false);
 
-                if (npcCollider != null)
-                    npcCollider.enabled = true;
-
                 NPCEvents.OnNPCReachedBar?.Invoke(this);
                 break;
 
@@ -207,11 +203,11 @@ public class NPC : MonoBehaviour
 
     public void OnHitByBottle(GameObject bottle)
     {
-        if (currentState != NPCState.WaitingAtBar)
+        if (currentState == NPCState.Despawning || currentState == NPCState.Inactive)
             return;
 
         bottlesReceived++;
-        NPCEvents.OnNPCHitByBottle?.Invoke(this, bottle);
+        NPCEvents.OnNPCHitByBottle?.Invoke(this);
 
         if (IsSatisfied)
         {
@@ -224,17 +220,14 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Bottle"))
         {
             OnHitByBottle(other.gameObject);
-
-            // Destruir el NPC inmediatamente
             DestroyNPC();
         }
     }
 
     private void DestroyNPC()
     {
-        // Cambiar a estado de destrucciÛn inmediata
         ChangeState(NPCState.Despawning);
-        stateTimer = npcData.despawnTime; // Forzar despawn inmediato
+        stateTimer = npcData.despawnTime;
     }
 
     // ==================================================
@@ -244,6 +237,10 @@ public class NPC : MonoBehaviour
     private void ActivateNPC()
     {
         gameObject.SetActive(true);
+
+        if (npcCollider != null)
+            npcCollider.enabled = true; // ‚Üê Activamos el collider desde el inicio
+
         ChangeState(NPCState.MovingToBar);
     }
 
