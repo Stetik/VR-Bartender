@@ -32,25 +32,17 @@ public class XRInputController : MonoBehaviour
         leftGrabRay.SetActive(leftDirectGrab.interactablesSelected.Count == 0);
         rightGrabRay.SetActive(rightDirectGrab.interactablesSelected.Count == 0);
 
-        // TELEPORTATION RAY (RIGHT HAND)
+        // TELEPORTATION RAY
         bool hovering = rightRayInteractor.TryGetHitInfo(out _, out _, out _, out _);
-        bool shouldShowTeleport =
-            !hovering &&
-            rightCancel.action.ReadValue<float>() == 0 &&
-            rightActivate.action.ReadValue<float>() > 0.1f;
-
+        bool shouldShowTeleport = !hovering && rightCancel.action.ReadValue<float>() == 0 && rightActivate.action.ReadValue<float>() > 0.1f;
         rightTeleportRay.SetActive(shouldShowTeleport);
 
-        // LEFT HAND ANIMATION
-        float leftTrigger = leftPinchAction.action.ReadValue<float>();
-        float leftGrip = leftGripAction.action.ReadValue<float>();
-        leftHandAnimator.SetFloat("Trigger", leftTrigger);
-        leftHandAnimator.SetFloat("Grip", leftGrip);
+        // LEFT HAND
+        leftHandAnimator.SetFloat("Trigger", leftPinchAction.action.ReadValue<float>());
+        leftHandAnimator.SetFloat("Grip", leftGripAction.action.ReadValue<float>());
 
-        // RIGHT HAND ANIMATION
-        float rightTrigger = rightPinchAction.action.ReadValue<float>();
-        float rightGrip = rightGripAction.action.ReadValue<float>();
-        rightHandAnimator.SetFloat("Trigger", rightTrigger);
-        rightHandAnimator.SetFloat("Grip", rightGrip);
+        // RIGHT HAND
+        rightHandAnimator.SetFloat("Trigger", rightPinchAction.action.ReadValue<float>());
+        rightHandAnimator.SetFloat("Grip", rightGripAction.action.ReadValue<float>());
     }
 }

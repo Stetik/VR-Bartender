@@ -1460,7 +1460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 816963453}
-  - component: {fileID: 816963452}
+  - component: {fileID: 816963454}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -1468,21 +1468,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &816963452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816963451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b67128b3316a92408356d86cab6f51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPanel: {fileID: 1035725122}
-  howToPlayPanel: {fileID: 0}
-  sceneToLoad: VRBartender
 --- !u!4 &816963453
 Transform:
   m_ObjectHideFlags: 0
@@ -1498,6 +1483,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816963454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816963451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7c25af21ab5a8429eeeba3f5e0bc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Show Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f338b7ba-ab38-40aa-aa29-c1eca67c2731
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  head: {fileID: 0}
+  spawnDistance: 2
+  menu: {fileID: 0}
+  startPanel: {fileID: 1035725122}
+  howToPlayPanel: {fileID: 0}
+  sceneToLoad: SceneNameHere
+  volumeSlider: {fileID: 0}
+  turnDropdown: {fileID: 0}
+  snapTurn: {fileID: 0}
+  continuousTurn: {fileID: 0}
 --- !u!1001 &910987704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2156,8 +2175,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 816963452}
-        m_TargetAssemblyTypeName: VRMenuManager, Assembly-CSharp
+      - m_Target: {fileID: 816963454}
+        m_TargetAssemblyTypeName: GameMenuManager, Assembly-CSharp
         m_MethodName: LoadSceneByName
         m_Mode: 5
         m_Arguments:
@@ -3338,8 +3357,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 816963452}
-        m_TargetAssemblyTypeName: VRMenuManager, Assembly-CSharp
+      - m_Target: {fileID: 816963454}
+        m_TargetAssemblyTypeName: GameMenuManager, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
